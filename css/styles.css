@@ -744,7 +744,7 @@ footer {
 }
 
 
-.close-modal {
+.modal__close {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -755,12 +755,12 @@ footer {
     background-color: transparent;
 }
 
-.close-modal:hover{
+.modal__close:hover{
     fill: var(--color-hover);
     cursor: pointer;
 }
 
-.modal-title {
+.modal__title {
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
@@ -771,7 +771,7 @@ footer {
     display: block;
 }
 
-.modal-imput {
+.modal__imput {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -781,12 +781,12 @@ footer {
     padding-left: 35px;
 }
 
-.modal-imput:focus{
+.modal__imput:focus{
     border-color: var(--color-hover);
     outline: none;
 }
 
-.modal-imput:hover {
+.modal__imput:hover {
     border-color: var(--color-hover);
     cursor: pointer;
 }
@@ -800,22 +800,22 @@ footer {
     margin-bottom: 4px;
 }
 
-.input-wrap {
+.modal__wrap {
     position: relative;
 }
 
-.modal-icon {
+.modal__icon {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     left: 12px;
 }
 
-.modal-imput:hover + .modal-icon {
+.modal__imput:hover + .modal__icon {
     fill: var(--color-hover);
 }
 
-.modal-imput:focus + .modal-icon {
+.modal__imput:focus + .modal__icon {
     fill: var(--color-hover);
 }
 .user-comment {
